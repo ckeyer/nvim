@@ -13,7 +13,7 @@ opt.autoindent = true
 opt.wrap = false
 
 -- 光标行
--- opt.cursorline = true
+opt.cursorline = true
 
 -- 启用鼠标
 opt.mouse:append("a")
@@ -33,4 +33,18 @@ opt.smartcase = true
 opt.termguicolors = true
 opt.signcolumn = "yes"
 
+-- utf8
+opt.encoding = "UTF-8"
+opt.fileencoding = 'utf-8'
 
+-- 当文件被外部程序修改时，自动加载
+opt.autoread = true
+
+-- 设置 timeoutlen 为等待键盘快捷键连击时间500毫秒，可根据需要设置
+opt.timeoutlen = 300
+
+-- 补全增强
+opt.wildmenu = true
+
+-- 使用增强状态栏插件后不再需要 vim 的模式提示
+opt.showmode = false
